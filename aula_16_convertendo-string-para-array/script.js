@@ -9,4 +9,4 @@ let fullName = "Pedro Julio Guimarães"
 console.log(fullName.split(" "))
 
 // Cria um array com as letras.
-console.log(Array.from(fullName))
+console.log(Array.from(fullName)) 
