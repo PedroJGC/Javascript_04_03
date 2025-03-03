@@ -7,7 +7,7 @@ let myArray = [
     "Um texto",
     10,
     true,
-    function() {
+    function () {
         console.log("função dentro o Array!")
     },
     {
