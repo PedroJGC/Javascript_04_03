@@ -5,13 +5,13 @@
     esquerdo é undefined. Caso contrário,
     ele retorna o seu operando do lado esquerdo.
 */
- 
-let content = undefined
-console.log(content ?? "Conteúdo padrão")
+
+let content = undefined;
+console.log(content ?? 'Conteúdo padrão');
 
 const user = {
-    name: "Pedro",
-    avatar: undefined
-}
+  name: 'Pedro',
+  avatar: undefined,
+};
 
-console.log(user.avatar ?? "default.png")
+console.log(user.avatar ?? 'default.png');

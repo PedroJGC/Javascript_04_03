@@ -3,20 +3,20 @@
         - Adicionando e removendo um item do array
 */
 
-let users = []
+let users = [];
 
 // Adiciona um item no final do Array.
-users.push("Pedro")
-users.push("João")
-users.push("Marcos")
+users.push('Pedro');
+users.push('João');
+users.push('Marcos');
 
 // Adiciona um item no início do Array.
-users.unshift("Ana")
+users.unshift('Ana');
 
 // Remove do início do Array
-users.shift()
+users.shift();
 
 // Remove do final do Array
-users.pop()
+users.pop();
 
-console.log(users)
+console.log(users);

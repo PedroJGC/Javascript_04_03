@@ -4,10 +4,10 @@
         - Lowercase
 */
 
-let message = "Estou estudando os fundamentos do Javascript."
+let message = 'Estou estudando os fundamentos do Javascript.';
 
 // Uppercase
-console.log(message.toUpperCase())
+console.log(message.toUpperCase());
 
 // Lowercase
-console.log(message.toLowerCase())
+console.log(message.toLowerCase());

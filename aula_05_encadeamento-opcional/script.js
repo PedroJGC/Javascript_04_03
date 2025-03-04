@@ -11,9 +11,9 @@
 */
 
 const user = {
-    id: 1,
-    name: "Pedro",
-    /*address: {
+  id: 1,
+  name: 'Pedro',
+  /*address: {
         street: "Avenida Brasil",
         city: "São Paulo",
         geo: {
@@ -24,8 +24,8 @@ const user = {
     message: function () {
         console.log(`Olá, ${this.name}`)
     }*/
-}
+};
 
-console.log(user?.address?.street) // retorna undefined
+console.log(user?.address?.street); // retorna undefined
 
-user.message?.() // não retorna nada
+user.message?.(); // não retorna nada
